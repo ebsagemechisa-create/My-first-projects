@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="widht=device-width,initial-scale=1.0">
+     <title>haramaya_dashboard</title>
+</head>
+
+<body>
+<header>
+       <h1>HARAMAYA UNIVERSITY PORTAL</h1>
+     <nav>
+        <ul>
+             <li><a href="#courses">COURSE</a></li>
+             <li><a href="#register">REGISTER</a></li>
+             <li><a href="#faq">FAQ</a></li>
+
+       </ul>
+
+    </nav>
+</header>
+
+
+<main>
+
+<section id="courses">
+    <h3>AVAILABLE COURSE SECTION</h3>
+      <table>
+        <thead>
+           <tr>
+               <th>Coursecode</th>
+               <th>CourseName</th>
+               <th>CreditHour</th>
+               <th>Instructor</th>
+
+           </tr> 
+       </thead>
+       <tbody>
+           <tr>
+             <td>Ma111</td>
+             <td>Mathematics</td>
+             <td>3 hr</td>
+             <td>Melkamu</td>
+          </tr>
+        <tr>
+             <td>En5640</td>
+             <td>English</td>
+             <td>2hr</td>
+             <td>Bereket</td>
+        </tr>
+        <tr>
+            <td>AO4521</td>
+            <td>Afaan Ormoo</td>
+            <td>1hr</td>
+            <td>Mideksa</td>
+        </tr>
+</tbody>
+ </table>
+</section>
+
+
+
+<section id="register">
+    <h3>COURSE REGISTRATION FORM</h3>
+
+    <form>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="fname" > <br> <br>
+
+    <label for="useremail">Email</label>
+<input type="email" id="useremail"  name="email"> <br> <br>
+
+<label for="department">Choose Department:</label>
+<select id="department">
+<optgroup label="Natural Science">
+    
+    <option>Bcs in Computer Science</option>
+    <option>Software engeneering</option>
+    <option>Information Thecnology</option>
+    <option>Information Science</option>
+</optgroup>
+
+<optgroup label="Social Science">
+
+<option>Law</option>
+<option>Agro Economics</option>
+<option>Ecomonics</option>
+<option>Psycology</option>
+
+
+</optgroup>
+
+
+</select> <br> <br>
+
+<input type="checkbox" id="p1"  name="morning">
+<label for="p1">Morning</label>
+<br>
+
+<input type="checkbox" id="p2"  name="afternoon">
+<label for="p2">Afternoon</label>
+<br> <br>
+<h3>ACADEMIC YEAR</h3>
+
+<input type="radio"  name="year-1" id="y1">
+<label for="y1">YEAR-1</label> <br> <br>
+
+<input type="radio" id="y2" name="year-1">
+<label for="y2">YEAR-2</label> <br> <br>
+
+<input type="radio" id="y3" name="year-1">
+<label for="y3">YEAR-3</label>
+<br> <br>
+
+<h3>COMMENT YOUR IDEA</h3>
+<label for="message">Message</label>
+<textarea id="message" placeholder="enter you comment here"></textarea>
+<br> <br>
+
+
+<button type="submit">Register</button>
+
+</form>
+
+
+</section>
+
+<section id="faq">
+<h3>FAQ</h3>
+<article>
+    <strong>How could i register?</strong>
+    <p> Enter your name then email after that click the 'register' button</p>
+
+</article>
+<article>
+<strong>Which department is better ?</strong>
+<p> since the world future is about thechnology the best recommendation is Computer Science and Software Engeneering</p>
+
+</article>
+
+
+</section>
+
+<footer>
+
+    
+
+        <a href="#">Facebook|</a>
+         <a href="#">Github</a>
+    
+    
+   
+<p> &copy;2026 All right reserved</p>
+
+
+</footer>
+
+
+</main>
+
+
+</body>
+
+
+
+</html>
